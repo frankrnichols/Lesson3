@@ -10,24 +10,6 @@
 		<author href="www.frankrnichols.com" email="frank.r.nichols1@gmail.com">
 Frank R. Nichols, Sr.
 		</author>
-        <js-module src="www/bluetoothle.js" name="BluetoothLe">
-        <clobbers target="window.bluetoothle" />
-    </js-module>
-    
-    <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="BluetoothLePlugin">
-                <param name="android-package" value="com.frankrnichols.bluetoothle.BluetoothLePlugin" />
-            </feature>
-        </config-file>
-        
-        <source-file src="src/android/BluetoothLePlugin.java" target-dir="src/com/frankrnichols/bluetoothle" />
-        
-        <config-file target="AndroidManifest.xml" parent="/manifest">
-            <uses-permission android:name="android.permission.BLUETOOTH"/>
-            <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-        </config-file>
-    </platform>
 		<preference name="phonegap-version" value="3.4.0" />
 		<preference name="orientation" value="default" />
 		<preference name="fullscreen" value="true" />
