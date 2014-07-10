@@ -2,11 +2,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<title>Silly Simple</title>
+	<title>Dad's Lesson3</title>
 </head>
 <body background="Tulips.jpg">
 	<button id="silly">Do it</button>
 	<button id="Clear99">Clear99</button>
+	<button id="Magical">Magical</button>
 	<div id="results"></div>
 <script src="js/zepto.min.js"></script>
 <script src="js/silly.js"></script>
@@ -16,6 +17,9 @@ $('#silly').click(function() {
 });
 $('#Clear99').click(function() {
 	$('#results').html('');
+});
+$('#Magical').click(function() {
+	SILLY.DoThat($('#results'));
 });
 </script>
 </body>
