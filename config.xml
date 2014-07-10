@@ -2,9 +2,9 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "com.frankrnichols.lesson2"
-		versionCode="2"
-		version   = "0.2">
-		<name>Lesson2</name>
+		versionCode="3"
+		version   = "0.3">
+		<name>Lesson3</name>
 		<description>
 teaching self 2d lesson		</description>
 		<author href="www.frankrnichols.com" email="frank.r.nichols1@gmail.com">
