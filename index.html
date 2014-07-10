@@ -1,0 +1,22 @@
+<!doctyhpe html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Silly Simple</title>
+</head>
+<body background="Tulips.jpg">
+	<button id="silly">Do it</button>
+	<button id="Clear99">Clear99</button>
+	<div id="results"></div>
+<script src="js/zepto.min.js"></script>
+<script src="js/silly.js"></script>
+<script>
+$('#silly').click(function() {
+	SILLY.DoIt($('#results'));
+});
+$('#Clear99').click(function() {
+	$('#results').html('');
+});
+</script>
+</body>
+</html>
